@@ -1,61 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+
 .header {
   height: 48px;
   width: 100%;
   background-color: #333333;
-  padding: 8px;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  font-size: 12px;
 }
 
-.fa-bars {
-  color: #A5A5A5;
+.ham-container {
+  height: 40px;
+  width: 48px;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.ham {
+  height: 1px;
+  width: 17px;
+  background: #FFFFFF;
+}
+
+.ham-one {
+  margin-bottom: 6px;
 }
 
 .fa-apple {
-  color: #A5A5A5;
+  color: #FFFFFF;
 }
 
-.fa-shopping-bag {
-  color: #A5A5A5;
-}
 
 .fa-shopping-cart {
-  color: #A5A5A5;
+  color: #FFFFFF;
 }
 
 .mary-go-round {
-  height: 81vh;
+  height: 37.8em;
   width: 100%;
   border: red solid;
 }
 
 .after-pics {
-  height: 30vh;
+  height: 12.4em;
   width: 100%;
 }
 
 .iphone {
-  background-image: url("pics/iphone 6.jpg");
-  background-size: cover;
+  background-image: url("pics/Screen Shot 2016-07-06 at 2.42.11 PM.png");
+  background-size: 734px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+  background-color: #F3F3F3;
 }
 .watch {
-  background-image: url("pics/at a glance.jpg");
+  background-image: url("pics/apple tv 2.png");
+  background-size: 450px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+  background-color: #F9F9F9;
 }
 
 .ipad {
-  background-image: url("pics/ipad2.jpg");
-  background-size: cover;
+  background-image: url("pics/ipad pro 4.png");
+  background-size: 734px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+  background-color: #FAFAFA;
 }
 
 .beats {
-  background-image: url("pics/beats 2.png");
-  /*background-size: cover;*/
+  background-image: url("pics/beats3.jpg");
+  background-size: 400px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+  background-color: #F9F9F9;
 }
 
 .footer {
-  border: green solid;
-  height: 73.6vh;
+  height: 30.5em;
   width: 100%;
+  background: #F2F2F2;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.top-footer {
+  height: 22.5em;
+  width: 100%auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-top: 2em;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13.5px;
+}
+
+
+
+.foot-menu {
+  width: 100%;
+  height: 2.9em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px #E2E2E2 solid;
+  color: #434343;
+
+}
+
+.bottom-footer {
+  height: 11.5em;
+  width: 100%auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.bot-divs {
+  width: 100%;
+  height: 2em;
+}
+
+.one {
+ color: #B0B0B0;
+ font-family: 'PT Sans', sans-serif;
+ font-size: 11px;
+ height: 5em;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items:center;
+ margin-top: 15px;
+}
+.paragraph-div {
+width: 200px;;
+height: 1.75em;
+}
+
+.para-two {
+  /*margin-top: 5px;*/
+}
+
+.two {
+height: 3em;
+display: flex;
+flex-direction: row;
+font-size: 11px;
+font-family: 'PT Sans', sans-serif;
+align-items: center;
+color: #6F6F6F;
+margin-top: 7px;
+}
+.button {
+  background-image: url("pics/us.png");
+  background-position: right;
+  border-radius: 50px;
+  border: silver solid 1px;
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+}
+.flag-text {
+  margin-left: 4px;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  font-family: 'PT Sans', sans-serif;
+  align-items: center;
+  color: #B0B0B0;
+  height: 2.3em;
+}
+
+.fa-copyright{
+margin-left: 4px;
+margin-right: 4px;
+}
+
+.four {
+height: 3em;
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items:center;
+}
+.last-divs {
+  height: 1.3em;
+  width: 80px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-size: 11px;
+  font-family: 'PT Sans', sans-serif;
+  border-right: 1px #E2E2E2 solid;
+  color: #6F6F6F;
+}
+
+.sales {
+  width: 120px;
+}
+
+.legal {
+  width: 50px;
+}
+
+.site-map {
+  width: 60px;
+  border: none;
+}
+
+a:link {
+   color: #5E9CD3;
+   text-decoration: none;
+}
+
+.fa-plus {
+  color: #7D7D7D;
+}
+
+.plus-container {
+  height: 15px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.vertical {
+  background: #7D7D7D;
+  height: 9px;
+  width: 1px;
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+.horizontal {
+  background: #7D7D7D;
+  height: 1px;
+  width: 9px;
+  position: relative;
+  margin-top: 6px;
+  margin-right: 1.5px;
 }
