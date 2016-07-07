@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans");
 
 .header {
-  height: 48px;
+  height: 46.5px;
   width: 100%;
   background-color: #333333;
   padding-left: 10px;
@@ -251,4 +251,58 @@ a:link {
   position: relative;
   margin-top: 6px;
   margin-right: 1.5px;
+}
+@media only screen and (min-width: 428px) {
+  .footer {
+    height: 28em;
+  }
+  .bottom-footer {
+    height: 8em;
+  }
+  .one {
+    height: 3em;
+  }
+.two {
+  margin-top: 0px;
+}
+.three {
+  align-items: flex-end;
+}
+.four {
+  height: 2em;
+  align-items: flex-end;
+}
+}
+@media only screen and (min-width: 736px) {
+  .mary-go-round {
+    height: 57.5em;
+    width: 100%;
+    border: red solid;
+  }
+  .mid-pic-container{
+    height: 25em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .after-pics {
+    height: 12.4em;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1070px) {
+  .mid-pic-container{
+    height: 12.5em;
+    width: 100%;
+    display: flex;
+  }
+  .after-pics {
+    height: 12.4em;
+    width: 25%;
+  }
 }
