@@ -1,0 +1,152 @@
+@media only screen and (min-width: 428px) {
+  .footer {
+    height: 28em;
+  }
+  .bottom-footer {
+    height: 8em;
+  }
+  .one {
+    height: 3em;
+  }
+.two {
+  margin-top: 0px;
+}
+.three {
+  align-items: flex-end;
+}
+.four {
+  height: 2em;
+  align-items: flex-end;
+}
+}
+@media only screen and (min-width: 736px) {
+  .mary-go-round {
+    height: 45.3em;
+    width: 100%;
+    border: red solid;
+  }
+  .mid-pic-container{
+    height: 25em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .after-pics {
+    height: 12.4em;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /*header*/
+.hide {
+  display: flex;
+  color: #FFFFFF;
+font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
+#search {
+  display: flex;
+}
+.ham-container {
+  display: none;
+}
+.top-footer {
+  display: none;
+}
+.foot-menu {
+display: none;
+}
+.footer {
+  height: 22em;
+}
+.footer-two {
+   /*border: red solid;*/
+  height: 18em;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  background: #F2F2F2;
+}
+.sub-div {
+  /* border: blue solid; */
+  height: 20em;
+  width: 20%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  margin-top: 25px;
+  color: #848484;
+  line-height: 20px;
+}
+.third-lvl-div {
+   /*border: green solid;*/
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  height: 6em;
+  color: #848484;
+}
+.third-lvl-div-two {
+  margin-top: 12px;
+  /*border: red solid;*/
+}
+.bold {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  color: #3F3F3F;
+}
+.the-bot-divs{
+  display: none;
+}
+.bottom-footer{
+  height: 5em;
+}
+.bottom-footer-two{
+height: 5em;
+width: 100%;
+display: flex;
+flex-direction: column;
+background: #F2F2F2;
+}
+.paragraph-div-two{
+font-size: 12px;
+/*border: blue solid;*/
+height: 2em;
+color: #A7A7A7;
+border-bottom: 1px #E3E3E3 solid;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.below-para-two{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+/*border: blue solid;*/
+}
+.three{
+  width: 25em;
+}
+.four{
+width: 26em;
+}
+.button-flag{
+  height: 7px;
+  width: 105px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: auto;
+}
+}
+
+@media only screen and (min-width: 1070px) {
+  .mid-pic-container{
+    height: 12.5em;
+    width: 100%;
+    display: flex;
+  }
+  .after-pics {
+    height: 12.4em;
+    width: 25%;
+  }
+}
