@@ -49,9 +49,14 @@
   color: #FFFFFF;
 }
 
-.mary-go-round {
+/*start of carosel*/
+.single-item {
   height: 37.8em;
   width: 100%;
+  border: blue solid;
+}
+.slider-pic-1 {
+  background-position: center;
   border: red solid;
 }
 
