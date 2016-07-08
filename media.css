@@ -20,10 +20,10 @@
 }
 }
 @media only screen and (min-width: 736px) {
-  .mary-go-round {
-    height: 45.3em;
+  .single-item {
+    height: 43.4em;
     width: 100%;
-    border: red solid;
+    /*border: red solid;*/
   }
   .mid-pic-container{
     height: 25em;

@@ -15,7 +15,7 @@
     src: url('./fonts/slick.eot');
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
-/* Arrows */
+ /*Arrows */
 .slick-prev,
 .slick-next
 {
@@ -67,11 +67,12 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 50px;
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: gray;
+
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -88,7 +89,9 @@
 }
 .slick-prev:before
 {
-    content: '←';
+  content: '\f053';
+  font-family: FontAwesome;
+  margin-right: -200px;
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -106,8 +109,10 @@
 }
 .slick-next:before
 {
-    content: '→';
-}
+    content: '\f054';
+    font-family: FontAwesome;
+    margin-left: -100px;
+  }
 [dir='rtl'] .slick-next:before
 {
     content: '←';
@@ -140,7 +145,7 @@
 
     display: inline-block;
 
-    width: 20px;
+    width: 23px;
     height: 20px;
     margin: 0 5px;
     padding: 0;
@@ -154,16 +159,16 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     padding: 5px;
 
     cursor: pointer;
-
-    color: transparent;
+    border-radius: 50px;
+    background-color: #333;
     border: 0;
     outline: none;
-    background: transparent;
+    opacity: .5;
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
@@ -178,7 +183,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 6px;
+    font-size: 11px;
     line-height: 20px;
 
     position: absolute;
@@ -188,17 +193,18 @@
     width: 20px;
     height: 20px;
 
-    content: '•';
+    /*content: '•';*/
     text-align: center;
 
-    opacity: .25;
+    opacity: .4;
     color: black;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.slick-dots li.slick-active button:before
+.slick-dots li.slick-active button
 {
-    opacity: .75;
-    color: black;
+  border: 1px #0070c9 solid;
+    /*opacity: ;*/
+    background-color: white;
 }
