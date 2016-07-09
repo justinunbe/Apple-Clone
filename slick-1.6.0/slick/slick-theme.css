@@ -15,6 +15,11 @@
     src: url('./fonts/slick.eot');
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
+
+
+
+
+
  /*Arrows */
 .slick-prev,
 .slick-next
@@ -26,9 +31,9 @@
     top: 50%;
 
     display: block;
-
-    width: 20px;
-    height: 20px;
+    z-index:5;
+    width: 0px;
+    height: 0px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -66,11 +71,11 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'slick';
-    font-size: 50px;
+    font-family: FontAwesome;
+    font-size: 100px;
     line-height: 1;
 
-    opacity: .75;
+    opacity: .30;
     color: gray;
 
 
@@ -91,7 +96,7 @@
 {
   content: '\f053';
   font-family: FontAwesome;
-  margin-right: -200px;
+  margin-left: 50px;
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -111,12 +116,18 @@
 {
     content: '\f054';
     font-family: FontAwesome;
-    margin-left: -100px;
+    margin-left: -150px;
   }
 [dir='rtl'] .slick-next:before
 {
     content: '←';
 }
+
+
+
+
+
+
 
 /* Dots */
 .slick-dotted.slick-slider
