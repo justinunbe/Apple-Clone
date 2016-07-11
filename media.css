@@ -20,10 +20,13 @@
 }
 }
 @media only screen and (min-width: 736px) {
-  .single-item {
-    height: 43.4em;
+  #carousel {
+    height: 58em;
     width: 100%;
-    /*border: red solid;*/
+  }
+  .slider-pic {
+    height: 58em;
+    width: 100%;
   }
   .mid-pic-container{
     height: 25em;
