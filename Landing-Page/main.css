@@ -76,7 +76,7 @@ width: 100%;
 }
 
 .iphone {
-  background-image: url("pics/Screen Shot 2016-07-06 at 2.42.11 PM.png");
+  background-image: url("../Landing-Page/Landing-Pics/Screen Shot 2016-07-06 at 2.42.11 PM.png");
   background-size: 734px 200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ width: 100%;
   background-color: #F3F3F3;
 }
 .watch {
-  background-image: url("pics/apple tv 2.png");
+  background-image: url("../Landing-Page/Landing-Pics/apple tv 2.png");
   background-size: 450px 200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ width: 100%;
 }
 
 .ipad {
-  background-image: url("pics/ipad pro 4.png");
+  background-image: url("../Landing-Page/Landing-Pics/ipad pro 4.png");
   background-size: 734px 200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@ width: 100%;
 }
 
 .beats {
-  background-image: url("pics/beats3.jpg");
+  background-image: url("../Landing-Page/Landing-Pics/beats3.jpg");
   background-size: 400px 200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -187,7 +187,7 @@ color: #6F6F6F;
 margin-top: 7px;
 }
 .button {
-  background-image: url("pics/us.png");
+  background-image: url("../Landing-Page/Landing-Pics/us.png");
   background-position: right;
   border-radius: 50px;
   border: silver solid 1px;
