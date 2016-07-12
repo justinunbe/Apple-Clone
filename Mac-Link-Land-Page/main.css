@@ -62,7 +62,44 @@
 .sub-header-container{
   height: 7em;
   width: 100%;
-  background: lightgray;
+  background: #F7F7F7;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.second-container{
+  height: 7em;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: red solid;
+}
+#macBook{
+  font-size:35px;
+}
+
+#macBook-Air {
+  font-size: 45px;
+}
+
+#macBook-Pro{
+  font-size: 50px;
+}
+
+#iMac{
+  font-size: 60px;
+}
+
+.sub-header-p{
+  font-family: ;
+  font-size: 14px;
+}
+.os-x{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: black solid 2px;
 }
 /*SUB HEADER END*/
 
@@ -73,14 +110,30 @@
   flex-wrap: wrap;
 }
 .mid-section{
-  /*border: red solid;*/
-  height: 30em;
+  border: red solid;
+  height: 58em;
   width: 100%;
-  background-image: url("../Mac-Link-Land-Page/pics/testing-image.jpg");
-  background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+}
+.macbook-pic{
+height: 32em;
+width: 60em;
+border: green solid;
+background-image: url("../Mac-Link-Land-Page/pics/testing-image.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+}
+.macbook-pic-text{
+  border: blue solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 23em;
+  font-size: 29px;
 }
 /*MID PIC END*/
 
