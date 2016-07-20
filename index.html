@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
     <head>
         <meta charset="utf-8">
         <title>Apple Home</title>
-        <link rel="stylesheet" href="../Landing-Page/reset.css"/>
-        <link rel="stylesheet" href="../Landing-Page/main.css"/>
-        <link rel="stylesheet" href="../Landing-Page/media.css"/>
+        <link rel="stylesheet" href="./indexCss-reset/reset.css"/>
         <link rel="stylesheet" type="text/css" href="../slick-1.6.0/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="../slick-1.6.0/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="./indexCss-reset/header-footer.css"/>
+        <link rel="stylesheet" href="./home/home.css"/>
+        <link rel="stylesheet" href="./home/home-media-queries.css"/>
+        <link rel="stylesheet" href="./iPad/iPad.css"/>
+        <link rel="stylesheet" href="./iPhone/iPhone.css"/>
+        <link rel="stylesheet" href="./Mac/mac.css"/>
+        <link rel="stylesheet" href="./music/music.css"/>
+        <link rel="stylesheet" href="./support/support.css"/>
+        <link rel="stylesheet" href="./tv/tv.css"/>
+        <link rel="stylesheet" href="./watch/watch.css"/>
+
         <script src="https://use.fontawesome.com/4b2a38be8f.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+      <!-- START OF HEADER -->
         <main>
             <div class="outer-header">
                 <header class="header">
@@ -19,52 +29,37 @@
                         <div class="ham ham-one"></div>
                         <div class="ham ham-two"></div>
                     </div>
-                    <i id="apple" class="fa fa-apple fa-2x" aria-hidden="true"></i>
+                    <a ui-sref="home">
+                        <i id="apple" class="fa fa-apple fa-2x" aria-hidden="true"></i>
+                    </a>
                     <div class="hide">
-                        <p>Mac</p>
+                        <a ui-sref="Mac">Mac</a>
                     </div>
                     <div class="hide">
-                        <p>Ipad</p>
+                        <a ui-sref="iPad">iPad</a>
                     </div>
                     <div class="hide">
-                        <p>Iphone</p>
+                        <a ui-sref="iPhone">iPhone</a>
                     </div>
                     <div class="hide">
-                        <p>Watch</p>
+                        <a ui-sref="watch">Watch</a>
                     </div>
                     <div class="hide">
-                        <p>TV</p>
+                        <a ui-sref="TV">TV</a>
                     </div>
                     <div class="hide">
-                        <p>Music</p>
+                        <a ui-sref="music">Music</a>
                     </div>
                     <div class="hide">
-                        <p>Support</p>
+                        <a ui-sref="support">Support</a>
                     </div>
                     <i id="search" class="hide fa fa-search" aria-hidden="true"></i>
                     <i id="shopping" class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
                 </header>
-            </div>
-            <div id="carousel" class="single-item">
-                <div>
-                    <img class="slider-pic" src="../Landing-Page/Landing-Pics/iphone size test.jpg" alt="img one"/>
                 </div>
-                <div>
-                    <img class="slider-pic" src="../Landing-Page/Landing-Pics/carousel-ipad.jpg" alt="img one"/>
-                </div>
-                <div>
-                    <img class="slider-pic" src="../Landing-Page/Landing-Pics/carousel-watch.png" alt="img one"/>
-                </div>
-                <div>
-                    <img class="slider-pic" src="../Landing-Page/Landing-Pics/carousel-macbook.jpg" alt="img one"/>
-                </div>
-            </div>
-            <div class="mid-pic-container">
-                <div class="after-pics iphone"></div>
-                <div class="after-pics watch"></div>
-                <div class="after-pics ipad"></div>
-                <div class="after-pics beats"></div>
-            </div>
+                <!-- END OF HEADER -->
+                <section ui-view></section>
+            <!-- START OF FOOTER -->
             <div class="footer">
                 <div class="footer-two">
                     <div class="sub-div">
@@ -300,10 +295,22 @@
                     </div>
                 </div>
             </div>
-    </main>
+        </main>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
-    <script type="text/javascript" src="../slick-1.6.0/slick/slick.min.js"></script>
-    <script src="../Landing-Page/main.js"></script>
-</body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+        <script type="text/javascript" src="./slick-1.6.0/slick/slick.min.js"></script>
+        <script src="app.js"></script>
+        <script src="./home/homeDirective.js"></script>
+        <script src="./iPad/iPadCtrl.js"></script>
+        <script src="./iPhone/iPhoneCtrl.js"></script>
+        <script src="./Mac/macCtrl.js"></script>
+        <script src="./music/musicCtrl.js"></script>
+        <script src="support/supportCtrl.js"></script>
+        <script src="./tv/tvCtrl.js"></script>
+        <script src="./watch/watchCtrl.js"></script>
+        <script src="./mainService.js"></script>
+    </body>
+    <!-- END OF FOOTER -->
 </html>

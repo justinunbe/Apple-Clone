@@ -1,0 +1,25 @@
+/*SUB HEADER START*/
+.sub-header-container{
+  height: 7em;
+  width: 100%;
+  background: lightgray;
+}
+/*SUB HEADER END*/
+
+/*MID PIC START*/
+.mid-section-container{
+  /*border: blue solid;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+.mid-section{
+  border: green solid;
+  height: 30em;
+  width: 100%;
+  background-image: url("../Mac/mac-pics/testing-image.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*MID PIC END*/

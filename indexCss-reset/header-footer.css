@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans");
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,700);
 
-
-/*HEADER CODE*/
 .outer-header{
   width: 100%;
   background: #363636;
@@ -51,46 +49,26 @@
 .hide {
   display: none;
 }
-
+a {
+  color: #FFFFFF;
+}
+a:hover{
+  opacity: 0.65;
+}
 #search {
   display: none;
   color: #FFFFFF;
 }
-/*END HEADER CODE*/
 
-/*SUB HEADER START*/
-.sub-header-container{
-  height: 7em;
-  width: 100%;
-  background: lightgray;
-}
-/*SUB HEADER END*/
 
-/*MID PIC START*/
-.mid-section-container{
-  /*border: blue solid;*/
-  display: flex;
-  flex-wrap: wrap;
-}
-.mid-section{
-  /*border: red solid;*/
-  height: 30em;
-  width: 100%;
-  background-image: url("../Mac-Link-Land-Page/pics/testing-image.jpg");
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/*MID PIC END*/
 
-/*FOOTER CODE*/
 .footer {
   height: 30.5em;
   width: 100%;
   background: #F2F2F2;
   padding-left: 14px;
   padding-right: 14px;
+
 }
 .footer-two{
   display: none;
@@ -162,7 +140,7 @@ color: #6F6F6F;
 margin-top: 7px;
 }
 .button {
-  background-image: url("../Landing-Page/Landing-Pics/us.png");
+  background-image: url("../home/Landing-Pics/us.png");
   background-position: right;
   border-radius: 50px;
   border: silver solid 1px;
@@ -254,4 +232,3 @@ a:link {
   margin-top: 6px;
   margin-right: 1.5px;
 }
-/*END FOOTER CODE*/

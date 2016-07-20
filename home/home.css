@@ -1,0 +1,55 @@
+/*start of carousel*/
+#carousel{
+height: 36em;
+width: 100%;
+}
+
+.slider-pic {
+  height: 36em;
+  width: 100%;
+  image-resolution: from-image;
+}
+/*end of carousel*/
+
+.mid-pic-container{
+
+}
+.after-pics {
+  height: 12.4em;
+  width: 100%;
+}
+
+.iphone {
+  background-image: url("../home/Landing-Pics/Screen Shot 2016-07-06 at 2.42.11 PM.png");
+  background-size: 734px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+  background-color: #F3F3F3;
+}
+.watch {
+  background-image: url("../home/Landing-Pics/apple tv 2.png");
+  background-size: 450px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+  background-color: #F9F9F9;
+}
+
+.ipad {
+  background-image: url("../home/Landing-Pics/ipad pro 4.png");
+  background-size: 734px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+  background-color: #FAFAFA;
+}
+
+.beats {
+  background-image: url("../home/Landing-Pics/beats3.jpg");
+  background-size: 400px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2px;
+  background-color: #F9F9F9;
+}
