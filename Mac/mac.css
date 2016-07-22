@@ -14,7 +14,6 @@
 }
 .mid-section{
   border: green solid;
-  height: 30em;
   width: 100%;
   background-image: url("../Mac/mac-pics/testing-image.jpg");
   background-repeat: no-repeat;
@@ -22,4 +21,57 @@
   justify-content: center;
   align-items: center;
 }
+#pink-macbook-pic-container {
+  height: 62em;
+}
+#more-power-behind-every-pixel-container {
+  height: 43em;
+}
+#all-the-power-you-want-all-day-long-container{
+  height: 43em;
+}
+#Retina-now-in-colossal-container{
+  height: 65em;
+}
+#Compare-mac-models-container{
+  height: 52em;
+}
+#Pick-up-at-the-apple-store-today-container{
+  height: 22em;
+}
+#accessories-for-mac{
+  height: 38em;
+}
+#calm-container{
+  height: 28em;
+}
+#os-x-el-capitan-container{
+  height: 21em;
+}
+#mac-os-sierra{
+  height: 33em;
+}
+#built-in-apps-container{
+  height: 24em;
+}
+#imac-photos-container{
+  height: 38em;
+}
+#pro-apps-container{
+  height: 21em;
+}
+#final-cut-pro-container{
+  height: 38em;
+}
+#mac-for-education-container{
+  height: 37em;
+}
+#mac-for-business-container{
+  height: 37em;
+}
+#mac-free-workshops-container{
+  height: 37em;
+}
+
+
 /*MID PIC END*/
