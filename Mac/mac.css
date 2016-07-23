@@ -2,7 +2,7 @@
 .sub-header-container{
   height: 7em;
   width: 100%;
-  background: lightgray;
+  background: #F7F7F7;
 }
 /*SUB HEADER END*/
 
@@ -13,46 +13,126 @@
   flex-wrap: wrap;
 }
 .mid-section{
-  border: green solid;
+  /*border: green solid;*/
   width: 100%;
-  background-image: url("../Mac/mac-pics/testing-image.jpg");
   background-repeat: no-repeat;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+#pink-macbook-pic-container {
+  height: 45em;
+  background-image: url("../Mac/mac-pics/pick-macbook-pic.jpg");
+  background-size: 350px 430px;
+  background-position:30% 80%;
+  display: flex;
+  /*justify-content: center;*/
+  flex-direction: column;
+  align-items: center;
+}
+.pink-macbook-new{
+  border: #f46c0e 1px solid;
+  height: 25px;
+  width: 48px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #f46c0e;
+  font-size: 13px;
+  margin-top: 70px;
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
 }
-#pink-macbook-pic-container {
-  height: 62em;
+.macbook-paragraph{
+  font-size: 40px;
+  margin-top: 15px;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
 }
+.light-years-ahead-paragraph{
+  font-size: 28px;
+  margin-top: 3px;
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+}
+.learn-more-container{
+  width: 143px;
+  height: 30px;
+  /*border: blue solid;*/
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  color: #70BCE2;
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  font-size: 17px;
+}
+
+
 #more-power-behind-every-pixel-container {
-  height: 43em;
+  height: 24em;
+  background-image: url("../Mac/mac-pics/more-power-behind-every-pixel.jpg");
+  background-size: 320px 190px;
+  background-position:30% 70%;
+  display: flex;
+  /*justify-content: center;*/
+  flex-direction: column;
+  align-items: center;
 }
 #all-the-power-you-want-all-day-long-container{
-  height: 43em;
+  height: 25em;
+  background-image: url("../Mac/mac-pics/all-the-power-you-want-all-day-long.png");
+  background-size: 320px 190px;
+  background-position:30% 70%;
+  display: flex;
+  /*justify-content: center;*/
+  flex-direction: column;
+  align-items: center;
 }
 #Retina-now-in-colossal-container{
-  height: 65em;
+  height: 40em;
+  background-image: url("../Mac/mac-pics/Retina-now-in-colossal.jpg");
+  background-size: 400px 300px;
+  background-position:40% 65%;
+  display: flex;
+  /*justify-content: center;*/
+  flex-direction: column;
+  align-items: center;
 }
 #Compare-mac-models-container{
-  height: 52em;
+  height: 23.5em;
+  background-image: url("../Mac/mac-pics/Compare-mac-models.jpg");
+  background-size: 350px 150px;
+  background-position:40% 41%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
 }
 #Pick-up-at-the-apple-store-today-container{
-  height: 22em;
+  height: 26.5em;
 }
 #accessories-for-mac{
-  height: 38em;
+  height: 21em;
 }
 #calm-container{
-  height: 28em;
+  height: 12.5em;
+  background-image: url("../Mac/mac-pics/calm.png");
+  background-size: 450px 190px;
+  background-position:40% 41%;
 }
 #os-x-el-capitan-container{
-  height: 21em;
+  height: 41em;
 }
 #mac-os-sierra{
   height: 33em;
+  background-image: url("../Mac/mac-pics/mac-os-sierra.jpg");
+  background-size: 450px 195px;
+  background-position:40% 95%;
 }
 #built-in-apps-container{
-  height: 24em;
+  height: 43em;
 }
 #imac-photos-container{
   height: 38em;
@@ -65,12 +145,22 @@
 }
 #mac-for-education-container{
   height: 37em;
+  background-image: url("../Mac/mac-pics/mac-for-education.jpg");
+  background-position: center;
+  background-size: 450px 290px;
+  /*background-position:40% 41%;*/
 }
 #mac-for-business-container{
   height: 37em;
+  background-image: url("../Mac/mac-pics/mac-for-business.jpg");
+  background-position: center;
+  background-size: 680px 290px;
 }
 #mac-free-workshops-container{
   height: 37em;
+  background-image: url("../Mac/mac-pics/mac-free-workshops.jpg");
+  background-position: center;
+  background-size: 680px 290px;
 }
 
 
