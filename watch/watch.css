@@ -1,5 +1,5 @@
 .watch-main-section {
-  background: #F5F7F7;
+  /*background: #F5F7F7;*/
   display: flex;
   flex-wrap: wrap;
 }
@@ -7,8 +7,9 @@
 height: 47em;
 width: 45%;
 margin-top: 300px;
-display: flex;
+/*display: flex;*/
 justify-content: flex-end;
+position: relative;
 }
 .watch-para-height-change{
   height: 75em;
@@ -19,6 +20,8 @@ justify-content: flex-end;
 #watch-main-description-paragraph{
   width: 430px;
   height: 400px;
+  position: fixed;
+  margin-left: 190px;
 }
 .watch-para-1{
   font-family: 'Source Sans Pro';
@@ -140,3 +143,8 @@ margin-top: -115px;
   height: 380px;
   width: 425px;
 }*/
+.tripple-watch-pic{
+  height: 25em;
+  width: 100%;
+  border: solid red;
+}
