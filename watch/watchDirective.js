@@ -4,7 +4,7 @@ angular.module("app").directive("watchDirective", function() {
         link: function(scope, element, attribute) {
             $(window).scroll(function() {
                 var winscroll = $(this).scrollTop();
-                console.log(winscroll);
+                // console.log(winscroll); 
                 var theta = $(this).scrollTop() / 10 % Math.PI;
                 $('.orange-leather-watch-pic').css({
                     'transform': 'translate(0px, -' + winscroll / 15 + '%) rotate(' + $(this).scrollTop() / 5500 % Math.PI + 'rad)'

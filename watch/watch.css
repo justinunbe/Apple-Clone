@@ -2,7 +2,8 @@
   /*background: #F5F7F7;*/
   display: flex;
   flex-wrap: wrap;
-  height: 200em;
+  height: 208em;
+  /*border: blue solid;*/
 }
 .main-paragraph-section{
 height: 47em;
@@ -11,6 +12,7 @@ margin-top: 300px;
 /*display: flex;*/
 justify-content: flex-end;
 position: relative;
+/*border: red solid;*/
 }
 
 .watch-para-height-change{
@@ -22,28 +24,28 @@ position: relative;
 #watch-main-description-paragraph-one{
   width: 430px;
   height: 400px;
-  position: fixed;
+  /*position: fixed;*/
   margin-left: 190px;
   margin-top: -70px;
 }
 #watch-main-description-paragraph-two{
   width: 430px;
   height: 400px;
-  position: fixed;
+  /*position: fixed;*/
   margin-left: 190px;
-  margin-top: -70px;
+  margin-top: 0px;
 }
 #watch-main-description-paragraph-three{
   width: 430px;
   height: 400px;
-  position: fixed;
+  /*position: fixed;*/
   margin-left: 190px;
-  margin-top: -70px;
+  margin-top: -550px;
 }
 #watch-main-description-paragraph-four{
   width: 430px;
   height: 400px;
-  position: fixed;
+  /*position: fixed;*/
   margin-left: 190px;
   margin-top: -70px;
 }
