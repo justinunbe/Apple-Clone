@@ -4,7 +4,7 @@ angular.module("app").directive("watchDirective", function() {
         link: function(scope, element, attribute) {
             $(window).scroll(function() {
                 var winscroll = $(this).scrollTop();
-                // console.log(winscroll); 
+                // console.log(winscroll);
                 var theta = $(this).scrollTop() / 10 % Math.PI;
                 $('.orange-leather-watch-pic').css({
                     'transform': 'translate(0px, -' + winscroll / 15 + '%) rotate(' + $(this).scrollTop() / 5500 % Math.PI + 'rad)'
@@ -40,7 +40,19 @@ angular.module("app").directive("watchDirective", function() {
                     'transform': 'translate(0px, -' + winscroll / 3.85 + '%) rotate(-' + $(this).scrollTop() / 3000 % Math.PI + 'rad)'
                 });
                 $('.black-chain-snap-watch-pic').css({
-                    'transform': 'translate(0px, -' + winscroll / 8 + '%) rotate(' + $(this).scrollTop() / 4000 % Math.PI + 'rad)'
+                    'transform': 'translate(0px, -' + winscroll / 8 + '%) rotate(' + $(this).scrollTop() / 1000 % Math.PI + 'rad)'
+                });
+                $('#watch-main-description-paragraph-one').css({
+                    'transform': 'translate(0px,' + winscroll / 40 + '%)'
+                });
+                $('#watch-main-description-paragraph-two').css({
+                    'transform': 'translate(0px,' + winscroll / 20 + '%)'
+                });
+                $('#watch-main-description-paragraph-three').css({
+                    'transform': 'translate(0px,' + winscroll / 20 + '%)'
+                });
+                $('#watch-main-description-paragraph-four').css({
+                    'transform': 'translate(0px,' + winscroll / 20 + '%)'
                 });
             });
         }

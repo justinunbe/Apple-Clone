@@ -12,6 +12,8 @@ angular.module("app").directive("paragraphSwitchDirective", function() {
                 var $sec4 = 2191;
                 var $sec5 = 2794;
                 var scroll = ($(this).scrollTop());
+                var height = $(window).height();
+                console.log(scroll)
 
                 if (scroll > -1) {
                     $("#watch-main-description-paragraph-one").fadeIn();

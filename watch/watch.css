@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   height: 208em;
   /*border: blue solid;*/
+  overflow: hidden;
 }
 .main-paragraph-section{
 height: 47em;
@@ -26,14 +27,14 @@ position: relative;
   height: 400px;
   /*position: fixed;*/
   margin-left: 190px;
-  margin-top: -70px;
+  margin-top: 320px;
 }
 #watch-main-description-paragraph-two{
   width: 430px;
   height: 400px;
   /*position: fixed;*/
   margin-left: 190px;
-  margin-top: 0px;
+  margin-top: 480px;
 }
 #watch-main-description-paragraph-three{
   width: 430px;
@@ -160,17 +161,49 @@ margin-top: -115px;
   z-index: 1;
   margin-top: -50px;
 }
-/*.white-sport-rose-gold-watch-pic{
+.white-sport-rose-gold-watch-pic{
   height: 380px;
   width: 425px;
   margin-right: -750px;
-}*/
-/*.pink-fabric-watch-pic{
+}
+.pink-fabric-watch-pic{
   height: 380px;
   width: 425px;
-}*/
-/*.tripple-watch-pic{
-  height: 25em;
+}
+.tripple-watch-pic{
+  height: 60em;
   width: 100%;
   border:
-}*/
+}
+
+.tripple-watch-pic-section{
+  height: 97em;
+  width: 100%;
+  background: white;
+  z-index: 5;
+  position: relative;
+  opacity: .96;
+  margin-top: -500px;
+}
+.tripple-watch-pic{
+  width: 100%;
+  height: auto;
+}
+.watch0s-preview-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: -350px;
+}
+.watchOS-Preview{
+  font-size: 70px;
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  margin-bottom: 25px;
+}
+.whole-new-watch{
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
