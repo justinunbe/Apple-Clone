@@ -5,7 +5,7 @@ angular.module("app").directive("colorDirective", function() {
             var elemSelector = '.watch-main-section',
                 tStart = 0; // Start transition this many pixels from the top
 
-                tEnd = 5000; // End transition
+                tEnd = 2244; // End transition
 
                 cStart = [0, 255, 255, 0.3]; // Start color
 

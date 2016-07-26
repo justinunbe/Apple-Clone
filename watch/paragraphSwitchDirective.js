@@ -8,33 +8,33 @@ angular.module("app").directive("paragraphSwitchDirective", function() {
                 var $sec4 = 2191;
                 var $sec5 = 2794;
 
-                // if ($(this).scrollTop() < 10) {
-                //     $(".main-paragraph-section-one").fadeOut();
-                // }
-                if ($(this).scrollTop() > 10 & $(this).scrollTop() < 492) {
-                    $(".main-paragraph-section-one").fadeIn();
-                    // $(".main-paragraph-section-two").hide();
-                    // $(".main-paragraph-section-three").hide();
-                    // $(".main-paragraph-section-four").hide();
+                if ($(this).scrollTop() < 30) {
+                    $("#watch-main-description-paragraph-one").fadeOut();
+                }
+                if ($(this).scrollTop() > 30 & $(this).scrollTop() < 492) {
+                    $("#watch-main-description-paragraph-one").fadeIn();
+                    $("#watch-main-description-paragraph-two").hide();
+                    $("#watch-main-description-paragraph-three").hide();
+                    $("#watch-main-description-paragraph-four").hide();
                 }
                 if ($(this).scrollTop() > $sec2) {
-                    $(".main-paragraph-section-one").fadeOut();
-                    $(".main-paragraph-section-two").fadeIn();
-                    // $(".main-paragraph-section-three").hide();
-                    // $(".main-paragraph-section-four").hide();
+                    $("#watch-main-description-paragraph-one").fadeOut();
+                    $("#watch-main-description-paragraph-two").fadeIn();
+                    $("#watch-main-description-paragraph-three").hide();
+                    $("#watch-main-description-paragraph-four").hide();
                 }
                 if ($(this).scrollTop() > $sec2 & $(this).scrollTop() < $sec3) {
-                    $(".main-paragraph-section-one").hide();
-                    $(".main-paragraph-section-two").fadeOut();
-                    $(".main-paragraph-section-three").fadeIn();
-                    $(".main-paragraph-section-four").hide();
+                    $("#watch-main-description-paragraph-one").hide();
+                    $("#watch-main-description-paragraph-two").fadeOut();
+                    $("#watch-main-description-paragraph-three").fadeIn();
+                    $("#watch-main-description-paragraph-four").hide();
                 }
 
                 if ($(this).scrollTop() > $sec3 & $(this).scrollTop() < $sec4) {
-                    $(".main-paragraph-section-one").hide();
-                    $(".main-paragraph-section-two").hide();
-                    $(".main-paragraph-section-three").fadeOut();
-                    $(".main-paragraph-section-four").fadeIn();
+                    $("#watch-main-description-paragraph-one").hide();
+                    $("#watch-main-description-paragraph-two").hide();
+                    $("#watch-main-description-paragraph-three").fadeOut();
+                    $("#watch-main-description-paragraph-four").fadeIn();
                 }
             });
         }

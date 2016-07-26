@@ -1,3 +1,3 @@
-angular.module("app").controller("tcCtrl", function($scope, mainService){
+angular.module("app").controller("tvCtrl", function($scope, mainService){
 
 });
