@@ -1,13 +1,26 @@
 /*start of carousel*/
-#carousel{
-height: 36em;
+#carousel {
+height: 35em;
 width: 100%;
+background-color: white;
+/*border: red solid;*/
 }
-
-.slider-pic {
-  height: 36em;
-  width: 100%;
-  image-resolution: from-image;
+#slider-pic-one{
+  width: 35%;
+  height: 30em;
+  margin: auto;
+}
+#slider-pic {
+  height: 30em;
+  width: 70%;
+  /*image-resolution: from-image;*/
+  /*border: blue solid;*/
+  margin: auto;
+}
+#slider-pic-three{
+  width: 50%;
+  height: 30em;
+  margin: auto;
 }
 /*end of carousel*/
 

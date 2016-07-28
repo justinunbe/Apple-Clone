@@ -7,28 +7,28 @@ angular.module("app").directive("watchDirective", function() {
                 // console.log(winscroll);
                 var theta = $(this).scrollTop() / 10 % Math.PI;
                 $('.orange-leather-watch-pic').css({
-                    'transform': 'translate(0px, -' + winscroll / 15 + '%) rotate(' + $(this).scrollTop() / 5500 % Math.PI + 'rad)'
+                    'transform': 'translate(0px, -' + winscroll / 15 + '%) rotate(' + $(this).scrollTop() / 4000 % Math.PI + 'rad)'
                 });
                 $('.white-sport-watch-pic').css({
-                    'transform': 'translate(0px, -' + winscroll / 12 + '%) rotate(' + $(this).scrollTop() / 4000 % Math.PI + 'rad)'
+                    'transform': 'translate(0px, -' + winscroll / 12 + '%) rotate(' + $(this).scrollTop() / 2500 % Math.PI + 'rad)'
                 });
                 $('.orange-fabric-watch-pic').css({
-                    'transform': 'translate(0px, -' + winscroll / 11.9 + '%) rotate(' + $(this).scrollTop() / 5500 % Math.PI + 'rad)'
+                    'transform': 'translate(0px, -' + winscroll / 11.9 + '%) rotate(' + $(this).scrollTop() / 4000 % Math.PI + 'rad)'
                 });
                 $('.blue-leather-watch-pic').css({
-                    'transform': 'translate(0px, -' + winscroll / 7.4 + '%) rotate(' + $(this).scrollTop() / 4000 % Math.PI + 'rad)'
+                    'transform': 'translate(0px, -' + winscroll / 7.4 + '%) rotate(' + $(this).scrollTop() / 2500 % Math.PI + 'rad)'
                 });
                 $('.black-link-watch-pic').css({
-                    'transform': 'translate(0px, -' + winscroll / 9.4 + '%) rotate(-' + $(this).scrollTop() / 2500 % Math.PI + 'rad)'
+                    'transform': 'translate(0px, -' + winscroll / 9.4 + '%) rotate(-' + $(this).scrollTop() / 2000 % Math.PI + 'rad)'
                 });
                 $('.purple-fabric-watch-pic').css({
-                    'transform': 'translate(0px, -' + winscroll / 12.9 + '%) rotate(-' + $(this).scrollTop() / 5000 % Math.PI + 'rad)'
+                    'transform': 'translate(0px, -' + winscroll / 12.9 + '%) rotate(-' + $(this).scrollTop() / 3500 % Math.PI + 'rad)'
                 });
                 $('.white-bronze-sport-watch-pic').css({
                     'transform': 'translate(0px, -' + winscroll / 5 + '%) rotate(' + $(this).scrollTop() / 2000 % Math.PI + 'rad)'
                 });
                 $('.orange-sport-watch-pic').css({
-                    'transform': 'translate(0px, -' + winscroll / 6.5 + '%) rotate(-' + $(this).scrollTop() / 5000 % Math.PI + 'rad)'
+                    'transform': 'translate(0px, -' + winscroll / 6.5 + '%) rotate(-' + $(this).scrollTop() / 3500 % Math.PI + 'rad)'
                 });
                 $('.yellow-sport-watch-pic').css({
                     'transform': 'translate(0px, -' + winscroll / 7.5 + '%) rotate(-' + $(this).scrollTop() / 1500 % Math.PI + 'rad)'

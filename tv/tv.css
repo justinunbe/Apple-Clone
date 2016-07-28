@@ -55,21 +55,38 @@ margin-top: -80px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: red solid;
+  width: 500px;
   color: white;
   font-family: 'Source Sans Pro';
+  margin-left: 90px;
 }
 .see-what-next-on-tvOS{
 font-size: 50px;
+margin-bottom: 15px;
 }
 .black-background-text{
-font-size: 20px;
+font-size: 25px;
+line-height: 1.4;
+color: #AEAEAE;
+margin-bottom: 15px;
 }
 .back-background-preview{
 font-size: 17px;
+color: #ADAEAF;
 }
 .black-background-tv-image{
-background-image: ;
+background-image: url("../tv/tv-pics/whats-on-now-pic.jpg");
+/*border: blue solid;*/
+width: 50%;
+background-size: 1050px, 1000px;
+background-repeat: no-repeat;
+background-position: 20px 55px;
+}
+.gray-space{
+  height: 300px;
+  width: 100%;
+  background: lightgray;
+  /*border: solid blue;*/
 }
 
 

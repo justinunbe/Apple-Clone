@@ -94,7 +94,7 @@
 }
 .slick-prev:before
 {
-  content: '\f053';
+  content: '\f104';
   font-family: FontAwesome;
   margin-left: 50px;
 }
@@ -114,7 +114,7 @@
 }
 .slick-next:before
 {
-    content: '\f054';
+    content: '\f105';
     font-family: FontAwesome;
     margin-left: -150px;
   }
