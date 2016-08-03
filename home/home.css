@@ -1,4 +1,7 @@
 /*start of carousel*/
+#page-wrapper{
+  overflow: hidden;
+}
 #carousel {
 height: 35em;
 width: 100%;

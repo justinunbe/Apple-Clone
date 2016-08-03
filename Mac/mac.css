@@ -1,9 +1,9 @@
 /*SUB HEADER START*/
-.sub-header-container{
+/*.sub-header-container{
   height: 7em;
   width: 100%;
   background: #F7F7F7;
-}
+}*/
 /*SUB HEADER END*/
 
 /*MID PIC START*/
@@ -43,6 +43,7 @@
   margin-top: 70px;
   font-family: 'Source Sans Pro';
   font-weight: 200;
+  display: none;
 }
 .macbook-paragraph{
   font-size: 40px;
@@ -184,6 +185,7 @@ font-weight: 300;
   background-image: url("../Mac/mac-pics/calm.png");
   background-size: 450px 190px;
   background-position:40% 41%;
+  display: none;
 }
 
 
@@ -277,3 +279,102 @@ width: 75px;
 
 
 /*MID PIC END*/
+#pink-macbook-pic-container {
+  height: 60em;
+  background-image: url("../Mac/mac-pics/pick-macbook-pic.jpg");
+  background-size: 850px 930px;
+  background-position:5% 80%;
+  display: flex;
+  /*justify-content: center;*/
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1070px) {
+
+  .macbook-paragraph{
+    font-size: 50px;
+    margin-top: 280px;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+  }
+  #more-power-behind-every-pixel-container {
+    height: 34em;
+    background-image: url("../Mac/mac-pics/more-power-behind-every-pixel.jpg");
+    background-size: 650px 400px;
+    background-position:85% 70%;
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+  }
+  #all-the-power-you-want-all-day-long-container{
+    height: 30em;
+    background-image: url("../Mac/mac-pics/all-the-power-you-want-all-day-long.png");
+    background-size: 620px 490px;
+    background-position:30% 70%;
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+  }
+  #Retina-now-in-colossal-container{
+    height: 45em;
+    background-image: url("../Mac/mac-pics/Retina-now-in-colossal.jpg");
+    background-size: 700px 450px;
+    background-position:100% 65%;
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+  }
+  #Compare-mac-models-container{
+    height: 23.5em;
+    background-image: url("../Mac/mac-pics/Compare-mac-models.jpg");
+    background-size: 750px 350px;
+    background-position:0% 41%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 1px #D3D3D3;
+  }
+  #Pick-up-at-the-apple-store-today-container{
+    height: 26.5em;
+    display: flex;
+    justify-content:space-around;;
+    flex-direction: row;
+  }
+  #accessories-for-mac{
+    height: 26em;
+    background-image: url("../Mac/mac-pics/accessories-for-mac-pic.png");
+    background-size: 870px 300px;
+    background-position:40% 70%;
+    display: flex;
+    /*justify-content: flex-end;*/
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+  #mac-for-education-container{
+    height: 37em;
+    background-image: url("../Mac/mac-pics/mac-for-education.jpg");
+    background-position: center;
+    background-size: cover;
+    /*background-position:40% 41%;*/
+    margin-bottom: 5px;
+  }
+  #mac-for-business-container{
+    height: 37em;
+    background-image: url("../Mac/mac-pics/mac-for-business.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+  }
+  #mac-free-workshops-container{
+    height: 37em;
+    background-image: url("../Mac/mac-pics/mac-free-workshops.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}

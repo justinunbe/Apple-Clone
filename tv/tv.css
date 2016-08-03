@@ -83,19 +83,39 @@ background-repeat: no-repeat;
 background-position: 20px 55px;
 }
 .gray-space{
-  height: 300px;
+  height: 500px;
   width: 100%;
-  background: lightgray;
+  background: #FBFBFB;
   /*border: solid blue;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-
+.gray-space-paragraph-container{
+  height: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.all-about-the-apps{
+  font-family: 'Source Sans Pro';
+  font-size: 50px;
+  margin-bottom: 8px;
+}
+.all-about-the-apps-info{
+  font-family: 'Source Sans Pro';
+  font-size: 25px;
+  line-height: 1.2;
+}
 
 
 
 
 .tv-grid-pic-container{
 overflow: hidden;
+margin-bottom: 10px;
 }
 
 .tv-grid-sliding-background{
