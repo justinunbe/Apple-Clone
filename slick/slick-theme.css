@@ -15,12 +15,7 @@
     src: url('./fonts/slick.eot');
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
-
-
-
-
-
- /*Arrows */
+/* Arrows */
 .slick-prev,
 .slick-next
 {
@@ -31,9 +26,9 @@
     top: 50%;
 
     display: block;
-    z-index:5;
-    width: 0px;
-    height: 0px;
+
+    width: 20px;
+    height: 20px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -71,13 +66,12 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: FontAwesome;
-    font-size: 100px;
+    font-family: 'slick';
+    font-size: 20px;
     line-height: 1;
 
-    opacity: .30;
-    color: gray;
-
+    opacity: .75;
+    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -94,9 +88,7 @@
 }
 .slick-prev:before
 {
-  content: '\f104';
-  font-family: FontAwesome;
-  margin-left: 50px;
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -114,20 +106,12 @@
 }
 .slick-next:before
 {
-    content: '\f105';
-    font-family: FontAwesome;
-    margin-left: -150px;
-  }
+    content: '→';
+}
 [dir='rtl'] .slick-next:before
 {
     content: '←';
 }
-
-
-
-
-
-
 
 /* Dots */
 .slick-dotted.slick-slider
@@ -156,7 +140,7 @@
 
     display: inline-block;
 
-    width: 23px;
+    width: 20px;
     height: 20px;
     margin: 0 5px;
     padding: 0;
@@ -170,16 +154,16 @@
 
     display: block;
 
-    width: 1px;
-    height: 1px;
+    width: 20px;
+    height: 20px;
     padding: 5px;
 
     cursor: pointer;
-    border-radius: 50px;
-    background-color: #333;
+
+    color: transparent;
     border: 0;
     outline: none;
-    opacity: .5;
+    background: transparent;
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
@@ -194,7 +178,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 11px;
+    font-size: 6px;
     line-height: 20px;
 
     position: absolute;
@@ -204,18 +188,17 @@
     width: 20px;
     height: 20px;
 
-    /*content: '•';*/
+    content: '•';
     text-align: center;
 
-    opacity: .4;
+    opacity: .25;
     color: black;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.slick-dots li.slick-active button
+.slick-dots li.slick-active button:before
 {
-  border: 1px #0070c9 solid;
-    /*opacity: ;*/
-    background-color: white;
+    opacity: .75;
+    color: black;
 }

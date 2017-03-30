@@ -46,6 +46,13 @@
   color: #FFFFFF;
 }
 
+#white {
+  color: #FFFFFF;
+}
+
+#white:hover{
+  opacity: 0.65;
+}
 
 .fa-shopping-cart {
   color: #FFFFFF;
@@ -55,7 +62,7 @@
   display: none;
 }
 a {
-  color: #FFFFFF;
+  color: inherit;
 }
 a:hover{
   opacity: 0.65;
@@ -103,9 +110,11 @@ a:hover{
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  margin-top: -20px;
 }
 .bottom-footer-two{
   display: none;
+  margin-top: -20px;
 }
 
 .bot-divs {

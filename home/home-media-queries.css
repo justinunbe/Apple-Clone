@@ -19,15 +19,66 @@
   align-items: flex-end;
 }
 }
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 736px) {
-  #carousel {
-    height: 30.5em;
-    width: 100%;
+/*Slider*/
+
+/*Slide one*/
+.slick-slider{
+    height: 915px;
   }
-  .slider-pic {
-    height: 43.5em;
-    width: 100%;
+
+.slide-one{
+    height: 915px;
   }
+
+  .slider-red-phone-description{
+    height: 190px;
+  }
+
+  .slider-red-phone-pic{
+    height: 675px;
+  }
+
+
+  /*Slide two*/
+  .slide-two{
+    height: 915px;
+  }
+
+  .slider-watch-pic{
+    width: 860px;
+    height: 915px;
+    padding-top: 60px;
+  }
+
+  .slider-watch-description{
+    width: 100%;
+    height: 130px;
+  }
+
+  /*Slide three*/
+  .slide-three{
+    height: 913px;
+  }
+
+  .slider-ipad-description{
+    height: 100px;
+  }
+
+  .slider-ipad-pic{
+    height: 733px;
+  }
+
+
+/*Pics after slider*/
   .mid-pic-container{
     height: 25em;
     width: 100%;
@@ -160,6 +211,58 @@ width: 26em;
 }
 
 @media only screen and (min-width: 1070px) {
+
+  /*Slide one*/
+  .slick-slider{
+      height: 1200px;
+    }
+
+  .slide-one{
+      height: 1200px;
+    }
+
+    .slider-red-phone-description{
+      height: 240px;
+    }
+
+    .slider-red-phone-pic{
+      height: 960px;
+    }
+
+
+    /*Slide two*/
+    .slide-two{
+      height: 1200px;
+    }
+
+    .slider-watch-pic{
+      width: 1100px;
+      height: 1200px;
+      padding-top: 100px;
+    }
+
+    .slider-watch-description{
+      width: 100%;
+      height: 130px;
+    }
+
+    /*Slide three*/
+    .slide-three{
+      height: 1200px;
+      padding-top: 115px;
+    }
+
+    .slider-ipad-description{
+      height: 110px;
+    }
+
+    .slider-ipad-pic{
+      height: 975px;
+      background-image: url("Landing-Pics/ipad_large_2x.jpg");
+    }
+
+
+  /*Pics after slider*/
   .mid-pic-container{
     height: 12.5em;
     width: 100%;
