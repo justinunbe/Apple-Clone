@@ -6,7 +6,9 @@ return {
     $(document).ready(function(){
       $('.slick-slider').slick({
       dots: false,
-      autoplay: true
+      autoplay: true,
+      pauseOnFocus: false,
+      pauseOnHover: false
     });
       });
   }
